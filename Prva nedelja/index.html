@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Miroslav Cvetkovic</title>
+    <link rel="shortcut icon" href="img/icon-ja.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!--Main Header-->
+    <header class="main-header">
+    <div class="container">
+        <div class="piccolor">
+        <img src="./img/ja1.png" alt="Miroslav Cvetkovic" width="120px" height="120px"/>
+        </div>
+        <h1>Miroslav Cvetković</h1>
+    </div>
+</header>
+<!--Main Header END-->
+
+<!--main-->
+<nav>
+    <ul class="list-reset">
+        <li><a href="#info">O autoru</a></li>
+        <li><a href="#portfolio">Moj portfolio</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <section id="info">
+        <div>
+            <h2>Osnovne informacije o meni</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In repudiandae, fugit, minima dignissimos nulla obcaecati praesentium voluptatibus, explicabo assumenda quisquam blanditiis? Officiis error obcaecati sed recusandae ea unde voluptatem facere.</p>
+        </div>
+        <br>
+        <div>
+            <h3>Moje osobine</h3>
+                <ul class="list-reset">
+                     <li>Dobar</li>
+                     <li>Timski igrač</li>
+                    <li>Društven</li>
+                    <li>a ostali kažu da sam i duhovit :)</li>
+                 </ul>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <a href="https://github.com/miroslavcvetkovic"><img src="./img/img1.png" alt="Ispred televizora" width="400"></a>
+            <figcaption><b>Moj prvi HTML kod!</b></figcaption>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempora ipsum eos blanditiis dignissimos molestiae totam exercitationem, reiciendis explicabo repudiandae.</p>
+            <button><a href="section1.html">Više informacija...</a></button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <a href="https://github.com/miroslavcvetkovic"><img src="./img/img2.png" alt="Moj prvi CSS kod" width="400"></a>
+            <figcaption><b>Moj prvi CSS kod!</b></figcaption>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempora ipsum eos blanditiis dignissimos molestiae totam exercitationem, reiciendis explicabo repudiandae.</p>
+            <button><a href="section2.html">Više informacija...</a></button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <a href="https://github.com/miroslavcvetkovic"><img src="./img/img3.png" alt="Moj prvi JavaScript kod" width="400"></a>
+            <figcaption><b>Moj prvi JavaScript kod!</b></figcaption>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempora ipsum eos blanditiis dignissimos molestiae totam exercitationem, reiciendis explicabo repudiandae.</p>
+            <button><a href="section3.html">Više informacija...</a></button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <a href="https://github.com/miroslavcvetkovic/ITBootCamp-domaci"><img src="./img/img4.png" alt="Moj prvi repozitorijum na GitHub-u" width="70%"></a>
+            <figcaption><b>Moj prvi repozitorijum na GitHub-u!</b></figcaption>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempora ipsum eos blanditiis dignissimos molestiae totam exercitationem, reiciendis explicabo repudiandae.</p>
+            <button><a href="https://github.com/miroslavcvetkovic/ITBootCamp-domaci">Više informacija...</a></button>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="contact">
+        <h2>Kontakt forma</h2>
+        <form method="post" action="poslato.html">
+                <div>
+                    <label for="UserName">Vaše ime i prezime *</label>
+                    <br>
+                    <input type="text" name="UserName" id="UserName" required placeholder="Upišite Vaše ime i prezime">
+                </div>
+                <br>
+                <div>
+                    <label for="UserNumber">Vaš kontakt broj telefona *</label>
+                    <br>
+                    <input type="text" name="UserNumber" id="UserNumber" required placeholder="Upišite Vaš broj telefona...">
+                </div>
+                <br>
+                <div>
+                    <label>E mail *</label>
+                    <br>
+                    <input type="email" name="UserEmail" id="UserEmail" required placeholder="primer@pr.com">
+                </div>
+                <br>
+                <div>
+                    <label for="UserCity">Vaše mesto stanovanja</label>
+                    <br>
+                    <select name="UserCity" id="UserCity">
+                        <option value="1"selected >Beograd</option>
+                        <option value="2">Novi Sad</option>
+                        <option value="3">Niš</option>
+                        <option value="4">Čačak</option>
+                        <option value="5">Subotica</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <p>Da li ste u pogramer/ka?</p>
+                    <input type="radio" name="itpro" id="itpro1" value="1">
+                    <label for="itpro1">Da</label>
+                    <input type="radio" name="itpro" id="itpro2" value="2">
+                    <label for="itpro2">Ne</label>
+                </div>
+                <br>
+                <div>
+                    <label for="UserText">Vaš upit *</label>
+                    <br>
+                    <textarea name="UserText" id="UserText" placeholder="Upišite Vaš tekst ovde..." rows="10" cols="100" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Pošalji</button>
+                <br>
+        </form>
+    </section>
+</div>
+<!-- main END-->
+
+<!-- Footer-->
+<footer>
+    <div class="container">
+    <div >
+    <p><small>Ovaj sajt predstavlja jednu od prvih vežbi sa predavanja iz <a href="https://itbootcamp.rs" target="_blank">ITBootcamp-a</a>.</small></p>
+    </div>
+</div>
+</footer>
+<!-- Footer END--> 
+</body>
+</html>
