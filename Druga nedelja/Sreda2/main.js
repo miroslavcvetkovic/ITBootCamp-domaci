@@ -18,8 +18,8 @@
     let ostatak1 = b % a;
     let stepen1 = b ** a;
     console.log(zbir1, razlika1, proizvod1, kolicnik1, ostatak1, stepen1);
-
 }
+
 
 
 // 2.  zadatak2.js  - Продавница
