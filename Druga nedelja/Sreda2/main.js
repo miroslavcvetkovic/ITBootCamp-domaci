@@ -1,6 +1,6 @@
 // 1. zadatak1.js:
 //     1. За два броја (а и б) исписати њихов: Збир,разлику,производ,количник,остатак при дељењу,степен (а^b)
-{
+
     let a = 3;
     let b = 4;
     let zbir = a + b;
@@ -18,7 +18,7 @@
     let ostatak1 = b % a;
     let stepen1 = b ** a;
     console.log(zbir1, razlika1, proizvod1, kolicnik1, ostatak1, stepen1);
-}
+
 
 
 
